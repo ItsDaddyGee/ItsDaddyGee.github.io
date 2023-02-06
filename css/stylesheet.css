@@ -55,7 +55,7 @@ p {
 }
 
 .logo-social img {
-	width: 8em; /* Change image size for mobile */
+	width: 90px; /* Change image size for mobile */
 	-webkit-animation-name: logo;
 	        animation-name: logo;
 	-webkit-animation-duration: 5s;
