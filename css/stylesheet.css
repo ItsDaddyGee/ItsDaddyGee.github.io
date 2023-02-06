@@ -55,6 +55,7 @@ p {
 }
 
 .logo-social img {
+	width: 8em; /* Change image size for mobile */
 	-webkit-animation-name: logo;
 	        animation-name: logo;
 	-webkit-animation-duration: 5s;
@@ -165,10 +166,6 @@ p {
 	width: 100%;
 }
 
-.img-social {
-	width: 5%;
-}
-
 .title {
 	font-weight: bold;
 	font-size: 17px;
@@ -194,6 +191,9 @@ p {
 	.logo img {
 		width: 280px; /* Change image size for mid sized devices */
 	}
+	.logo-social img {
+		width: 90px; /* Change image size for mid sized devices */
+	}
 
 	.playercount {
 		margin-top: 30px;
@@ -216,6 +216,10 @@ p {
 
 	.logo img {
 		width: 470px; /* Change image size for desktop */
+	}
+	
+	.logo-social img {
+		width: 100px;
 	}
 
 	.logo {
